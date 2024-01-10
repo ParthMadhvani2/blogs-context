@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div>
         <Header/>
-        <div>
+        <div className="w-full flex flex-col gap-y-1 mt-[50px] justify-center items-center">
             <Blogs/>
             <Pagination/>
         </div>

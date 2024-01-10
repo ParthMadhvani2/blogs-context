@@ -12,10 +12,10 @@ const CategoryPage = () => {
     const category = location.pathname.split("/").at(-1);
 
   return (
-    <div>
+    <div className="w-full flex flex-col gap-y-1 justify-center items-center mt-[90px]">
         <Header/>
-        <div>
-        <button
+        <div className="flex items-center gap-x-3 w-11/12 max-w-2xl mx-auto">
+        <button className="border-2 border-gray-300 py-1 px-4 rounded-md"
             onClick={() => navigation(-1)}
             >
                 back

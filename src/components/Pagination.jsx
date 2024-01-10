@@ -25,7 +25,7 @@ export default function Pagination() {
             Next
           </button>
         )}
-        <p className="text-sm font-semibold ml-auto">
+        <p className="text-sm font-semibold ml-auto py-2 px-4">
           Page {page} of {totalPages}
         </p>
       </div>
